@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import LottieInvoice from "../assets/pay invoice blue.json";
-import React, { useEffect } from "react";
+import React from "react";
 
 const SplashScreen = () => {
   return (
