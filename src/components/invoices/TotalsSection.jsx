@@ -154,6 +154,7 @@ const TotalsSection = ({
 
       {/* Extra Fees */}
       <div className="flex flex-col gap-2 mt-2 md:items-end">
+        <p className="text-gray-500 font-semibold text-[16px]">Extra fees</p>
         {fees.length === 0 && (
           <div className="text-xs text-gray-400">No extra fees</div>
         )}

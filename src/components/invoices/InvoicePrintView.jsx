@@ -118,19 +118,19 @@ const InvoicePrintView = ({ invoice }) => {
         </div>
         {/* Invoice Info */}
         <div className="mt-4 md:mt-0">
-          <div className="flex justify-between gap-5">
+          <div className="flex gap-5">
             <b>Invoice #:</b>
             <p>{invoiceNo || "—"}</p>
           </div>
-          <div className="flex justify-between gap-5">
+          <div className="flex gap-5">
             <b>Creation Date:</b>
             <p>{creationDate || "—"}</p>
           </div>
-          <div className="flex justify-between gap-5">
+          <div className="flex gap-5">
             <b>Due Date:</b>
             <p>{dueDate || "—"}</p>
           </div>
-          <div className="flex justify-between gap-5">
+          <div className="flex gap-5">
             <b>Currency:</b>
             <p>{currency || "INR"}</p>
           </div>
